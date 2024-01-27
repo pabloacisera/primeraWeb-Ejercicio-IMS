@@ -5,19 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deducciones</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
-    <body>
-        <h1>Deduccion de I.V.A por compras</h1>
-        <div id="calculo">
-            <label class="tag-ingreso" for="compras">Ingrese el monto de la compra</label>
-            <input class="valor"type="text" id="valor">
-            <button class="calcular">calcular</button>
-            <br>
-            <label id="resultado" for="tag-egreso">Monto deducible:</label>
-            <br>
-            <label id="cantidad_compras"for="cantidad_compras">Cantidad de compras realizadas</label>
-        </div>
+<body>
+    <h1>Deduccion de I.V.A por compras</h1>
+    <div id="calculo">
+        <label class="tag-ingreso" for="compras">Ingrese el monto de la compra: $</label>
+        <input class="valor" type="text" id="valor">
+        <button class="calcular">calcular</button>
+        <br>
+        <br>
+        <label class="egreso" id="egreso" for="tag-egreso">Monto deducible: </label>
+        <br>
+    </div>
+    <div id="resultado">RESULTADO</div>
+    <div class="observaciones">observaciones:</div>
 
-        <script src=""></script>
-    </body>
+    <script src="app.js"></script>
+</body>
 </html>
+

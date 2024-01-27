@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de Indice de Masa Corporal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/calculo_Indice/img/balanza.png" type="image/x-icon">
+</head>
+<body>
+    <h1>¿Que es el indice de masa corporal?<h1>
+        <h5><p class="text">El Índice de Masa Corporal (IMC) es una medida que se utiliza comúnmente en medicina para evaluar el peso relativo de una persona en relación con su altura. Se calcula dividiendo el peso de una persona en kilogramos por el cuadrado de su altura en metros. La fórmula matemática del IMC es la siguiente:
+            Peso (kg)
+            Altura (m)
+            2
+            IMC= 
+            Altura (m) 
+            2
+            Peso (kg)
+            El IMC proporciona una estimación general de la cantidad de tejido adiposo en el cuerpo y se utiliza como una herramienta de screening para evaluar el riesgo de ciertas condiciones de salud asociadas con el peso. Aunque el IMC no distingue entre la masa grasa y la masa magra, y no tiene en cuenta la distribución de la grasa corporal, sigue siendo una medida útil en la práctica clínica para identificar posibles problemas de peso, como bajo peso, peso normal, sobrepeso u obesidad. Los valores típicos del IMC se clasifican en categorías, como "bajo peso", "normal", "sobrepeso" u "obesidad", y estas categorías están asociadas con diferentes niveles de riesgo para la salud. Sin embargo, el IMC tiene limitaciones y no debe ser la única medida utilizada para evaluar la salud, ya que no tiene en cuenta la composición corporal y otros factores individuales. Es recomendable que la interpretación del IMC se realice en conjunto con otras evaluaciones clínicas.</p>
+        </h5>
+        <div class="lista">
+            <ul><strong>Bajo peso(Desnutriciòn)</strong>
+                <li>IMC menor a 18.5</li>
+            </ul>
+            <ul><strong>Peso normal</strong>
+                <li>IMC entre 18.5 y 24.9</li>
+            </ul>
+            <ul><strong>Sobrepeso</strong>
+                <li>IMC entre 25 y 29.9</li>
+            </ul>
+            <ul><strong>Obesidad</strong>
+                <li>Obesidad clase I: IMC entre 30 y 34.9</li>
+                <li>Obesidad clase II: IMC entre 35 y 39.9</li>
+                <li>Obesidad clase III: IMC 40 o mas.</li>
+            </ul>
+
+        </div>
+
+
+        <div id="calculo">
+            <span>Obtene tu IMC</span><br> 
+
+            <label for="peso">ingrese su peso en kg:</label>
+            <input class="peso" type="text"><br>
+
+            <label for="altura">ingrese su altura en mts:</label>
+            <input class="altura" type="text"><br><span>ejemplo: si mide 1,78mts = 178 cm</span><br><br>
+
+            <button class="calcular">Calcular</button>
+
+        </div>
+        <div class="consejo">Resultado:</div>
+
+    <script src="/my_script.js"></script>
+</body>
+</html>

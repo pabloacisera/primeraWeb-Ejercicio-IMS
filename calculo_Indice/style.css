@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(/calculo_Indice/img/fondo-metal-grunge-aranazos-manchas.jpg);
+    height: 100%;
+    align-items: center;
+    position: relative;
+    user-select: none;
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    display: inline-block;
+    position: relative;
+    top:25px;
+    left: 15px;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: chartreuse;
+    font-size: 100px;
+}
+
+p{
+    background-color: brown;
+    border:3px solid white;
+    border-radius: 25px;
+    padding: 25px;    
+    color: white;
+    display: flex;
+    width: 500px;
+    position: absolute;
+    top:350px;
+    left:800px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.lista{
+    
+    color: white;
+    display: flex;
+    width: 500px;
+    display: block;
+    position: relative; 
+    left: 150px;
+    top: 125px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+ul{
+    list-style: none;
+}
+
+
+#calculo{
+    background-color: rgb(194, 94, 94);
+    width: 400px;
+    height: 120px;
+    position:relative;
+    left: 150px;
+    top: 160px;
+    padding-top: 30px;
+    padding-left: 15px;
+    border-radius: 25px;
+}
+
+input{
+    width: 50px;
+    height: 15px;
+    position: relative;
+    left: 25px;
+}
+
+.altura{
+    left: 14px;
+}
+
+button{
+    height: 70px;
+    width: 80px; 
+    position: relative;
+    left: 270px;
+    top: -90px;
+}
+
+.consejo{
+    background-color: brown;
+    position:relative;
+    width: 380px;
+    top: 120px;
+    left: 160px;
+    color:black;
+    padding: 5px;
+    border-radius: 10px;
+}

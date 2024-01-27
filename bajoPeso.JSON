@@ -1,0 +1,16 @@
+
+{
+  "BajoPeso": {
+    "IMC": "Menor a 18.5",
+    "Consideraciones": [
+      "Puede indicar desnutrición o insuficiencia de peso.",
+      "Importante evaluar la causa subyacente, como trastornos alimentarios o problemas de salud."
+    ],
+    "Recomendaciones": [
+      "Consulta a un profesional de la salud: Un médico o un dietista puede realizar una evaluación completa y determinar la causa subyacente.",
+      "Aumenta la ingesta calórica: Enfoque en alimentos ricos en nutrientes y calorías, como grasas saludables (aguacates, aceite de oliva), proteínas magras (pollo, pescado, legumbres) y carbohidratos complejos (cereales integrales, frutas).",
+      "Incorpora alimentos densos en calorías: Nueces, semillas, frutas secas y productos lácteos pueden ayudar a aumentar la ingesta calórica.",
+      "Ejercicio de fuerza: Incorpora ejercicios de resistencia para desarrollar masa muscular."
+    ]
+  }
+}
